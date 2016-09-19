@@ -1,0 +1,133 @@
+@charset "UTF-8";
+.h_font{animation:hMove 0.5s 0.5s 1;-webkit-animation:hMove 1s 1;}
+.bg_aa{animation:bg_a 0.5s 0.5s 1;-webkit-animation:bg_a 1s 1;}
+.bg_ab{animation:bg_b 0.5s 0.5s 1;-webkit-animation:bg_b 1s 1;}
+.bg_a4{animation:bg_fo 0.5s 0.5s 1;-webkit-animation:bg_fo 1s 1;}
+.bg_a5{animation:bg_fi 0.5s 0.5s 1;-webkit-animation:bg_fi 1s 1;}
+.word_a{animation:word_a 0.5s 0.5s 1;-webkit-animation:word_a 1s 1;}
+.word_b{animation:word_b 0.5s 0.5s 1;-webkit-animation:word_b 1s 1;}
+
+.h_l{animation:hMovel 0.5s 1;-webkit-animation:hMovel 1s 1;}
+.bg_la{animation:bg_al 0.5s 1;-webkit-animation:bg_al 1s 1;}
+.bg_lb{animation:bg_bl 0.5s 1;-webkit-animation:bg_bl 1s 1;}
+.bg_l4{animation:bg_fol 0.5s 1;-webkit-animation:bg_fol 1s 1;}
+.bg_l5{animation:bg_fil 0.5s 1;-webkit-animation:bg_fil 1s 1;}
+.word_la{animation:word_al 0.5s 1;-webkit-animation:word_al 1s 1;}
+.word_lb{animation:word_bl 0.5s 1;-webkit-animation:word_bl 1s 1;}
+
+@keyframes hMove{
+	from{top:-90px;}
+	to{top:0;}
+}
+@keyframes bg_a{
+	from{right: -150px;}
+	to{right:0;}
+}
+@keyframes bg_b{
+	from{left: -150px;}
+	to{left:0;}
+}
+@keyframes bg_fo{
+	from{left: -150px;}
+	to{left:-18px;}
+}
+@keyframes bg_fi{
+	from{right: -300px;}
+	to{right:-165px;}
+}
+@keyframes word_a{
+	from{left: -100px;}
+	to{left:0;}
+}
+@keyframes word_b{
+	from{left: 100px;}
+	to{left:0;}
+}
+/* -webkit- */
+@-webkit-keyframes hMove{
+	from{top:-90px;}
+	to{top:0;}
+}
+@-webkit-keyframes bg_a{
+	from{right: -150px;}
+	to{right:0;}
+}
+@-webkit-keyframes bg_b{
+	from{left: -150px;}
+	to{left:0;}
+}
+@-webkit-keyframes bg_fo{
+	from{left: -150px;}
+	to{left:-18px;}
+}
+@-webkit-keyframes bg_fi{
+	from{right: -300px;}
+	to{right:-165px;}
+}
+@-webkit-keyframes word_a{
+	from{left: -100px;}
+	to{left:0;}
+}
+@-webkit-keyframes word_b{
+	from{left: 100px;}
+	to{left:0;}
+}
+
+/* 离开 */
+@keyframes hMovel{
+	from{top:0;opacity:1;}
+	to{top:-90px;opacity:0;}
+}
+@keyframes bg_al{
+	from{right: 0;opacity:1;}
+	to{right:-150px;opacity:0;}
+}
+@keyframes bg_bl{
+	from{left: 0;opacity:1;}
+	to{left:-150px;opacity:0;}
+}
+@keyframes bg_fol{
+	from{left: -18px;opacity:1;}
+	to{left:-150px;opacity:0;}
+}
+@keyframes bg_fil{
+	from{right: -165px;opacity:1;}
+	to{right:-300px;opacity:0;}
+}
+@keyframes word_al{
+	from{left: 0;opacity:1;}
+	to{left:-100px;opacity:0;}
+}
+@keyframes word_bl{
+	from{left: 0;opacity:1;}
+	to{left:100px;opacity:0;}
+}
+/* 离开的-webkit- */
+@-webkit-keyframes hMovel{
+	from{top:0;opacity:1;}
+	to{top:-90px;opacity:0;}
+}
+@-webkit-keyframes bg_al{
+	from{right: 0;opacity:1;}
+	to{right:-150px;opacity:0;}
+}
+@-webkit-keyframes bg_bl{
+	from{left: 0;opacity:1;}
+	to{left:-150px;opacity:0;}
+}
+@-webkit-keyframes bg_fol{
+	from{left: -18px;opacity:1;}
+	to{left:-150px;opacity:0;}
+}
+@-webkit-keyframes bg_fil{
+	from{right: -165px;opacity:1;}
+	to{right:-300px;opacity:0;}
+}
+@-webkit-keyframes word_al{
+	from{left: 0;opacity:1;}
+	to{left:-100px;opacity:0;}
+}
+@-webkit-keyframes word_bl{
+	from{left: 0;opacity:1;}
+	to{left:100px;opacity:0;}
+}
